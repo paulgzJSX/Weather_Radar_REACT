@@ -1,0 +1,90 @@
+.current-weather {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(400px, 2fr) minmax(40%, 1fr);
+  grid-gap: 1rem;
+  margin-bottom: 3rem;
+}
+  
+.current-card {
+  border-radius: 10px;
+  border: 1px solid #3546E2;
+  padding: .7rem 1.2rem;
+  background-color: #fff;
+}
+  
+.left-header h2 {
+  margin-bottom: .2rem;
+}
+  
+.left-header .location-details {
+  font-size: .6rem;
+  opacity: .6;
+}
+  
+.right-header {
+  height: 70px;
+  width: 70px;
+}
+  
+.right-header img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+  
+.current-temp {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 2.3rem;
+}
+  
+.current-temp h1 {
+  font-size: 2.5rem;
+  margin-right: 2.5rem;
+}
+  
+.high {
+  font-size: 1rem;
+  color: #f0b54e;
+}
+  
+.low {
+  font-size: .8rem;
+  color: #3546E2;
+}
+  
+.closest-cities a {
+  font-size: .8rem;
+  margin-right: .5rem;
+  color: grey;
+  padding: .1rem;
+  border-radius: 3px;
+}
+  
+.closest-cities a:hover {
+  background-color: #3546E2;
+  color: #fff;
+}
+  
+.weather-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: .8rem;
+}
+
+.map {
+  overflow: hidden;
+}
+
+#chartdiv {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  border: 1px solid #3546E2;
+  background-color: #fff;
+  overflow: hidden;
+  z-index: 1;
+}

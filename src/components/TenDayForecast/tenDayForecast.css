@@ -1,0 +1,57 @@
+.ten-day-forecast {
+    padding: .3rem;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+  }
+  
+.ten-day-title {
+    text-align: left;
+    color: #000;
+    padding: .2rem;
+    opacity: .5;
+    margin-bottom: 1.5rem;
+}
+  
+.cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+ }
+  
+.ten-day-card {
+    padding: 1rem;
+    border: 1px solid rgba(53, 70, 226, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    height: 200px;
+    width: 85px;
+  }
+  
+.ten-day-card img {
+    height: 50px;
+    width: 50px;
+}
+  
+.ten-day-date {
+    color: grey;
+    font-size: .8rem;
+}
+  
+.ten-day-low {
+    color: grey;
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+  
+.ten-day-description {
+    color: grey;
+    font-size: .8rem;
+    word-wrap: break-word;
+}
+  
+.ten-day-card:hover {
+    border-radius: 10px;
+    border: 1px solid  #3546E2;
+}
